@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+    position: relative;
     background-color: #f9f2f2;
     padding: 50px;
     border-radius: 10px;
@@ -18,7 +19,7 @@ body {
 
 
 .header-container {
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +52,7 @@ body {
 
 
 .profile-img {
+    
     width: 200px;
     height: 210px;
     border-radius: 10%;
@@ -60,6 +62,7 @@ body {
 .profile-information {
     display: flex;
     flex-direction: column;
+    
 }
 
 .name {
@@ -71,12 +74,13 @@ body {
 
 .last-name {
     font-size: 2em;
-    color: #a9f7fa;
+    color: #07c5cb;
 }
 
 .profession {
+    
     margin-top: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #929292;
 }
 
@@ -85,24 +89,28 @@ body {
 .contact-info {
     display: flex;
     
-    justify-content: center;
-    padding: 10px;
-    background-color: #cafdff;
+    justify-content: center; /*centra el contenido del componente */
+    padding: 10px;   /*espacio entre los componentes*/
+    background-color: #cafdff; /*color del componente*/
     box-shadow: 0 4px 8px rgba(13, 13, 13, 0.2);
-    border-radius: 20px;
-    gap: 20px;
+    border-radius: 20px; /*pone el borde redonde */
+    gap: 30px; /*espacio entre los componentes*/
     width: 100% !important;
-    font-size: 1.2em;
-    height: 50px;
+    font-size: 1em; /*tamaño del texto*/
+    height: 50px; /*tamaño de largo*/
+    min-height: 50px; /*tamaño de largo*/
     border: solid 1px #cafdff;
 }
 
 /* Estilos de descripcion personal */
 .personal-description {
-    
+    display: flex;
+    display: table-column;
     padding: 40px;
     border: solid 2px #07c5cb;
     border-radius: 30px;
+    max-width: 1500px;
+    min-height: 100px;
     width: 100% !important;
     
 
@@ -193,8 +201,8 @@ body {
 
 .iconos_conta img{
 
-    width: 30;
-    height: 30;
-    
+    width: 40px;
+    height: 40px;
+
 
 }
