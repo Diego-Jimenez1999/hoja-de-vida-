@@ -106,11 +106,68 @@ const biblioteca =()=>{
     {nombre: 'caballo de troya', año: 1999} ]
 
    
-    let recorridoBoot = boots.map(function (boots, i)) {
+   
 
-        
+}
 
 
-    }
+const PROYECT =()=>{
 
+
+    //EJERCICIO 1
+
+    let numeros = [5, 10, 15, 20, 25];
+
+    //Mostrar el array original
+    console.log('Array original:', numeros);
+
+    //Agregar un número al final del array
+    let newnum = 30; 
+    numeros.push(newnum);
+
+    // Muestra el array después de agregar el número
+    console.log('Array después de agregar el número:', numeros);
+
+    //Elimina el primer número del array
+    numeros.shift();
+
+    // Mostrar el array después de eliminar el primer número
+    console.log('Array después de eliminar el primer número:', numeros);
+
+    //EJERCICIO 2
+
+    // Array de números original
+    let numero = [5, 10, 15, 20, 25];
+
+    // Valor por el que multiplicar
+    let x = 3; 
+
+    // Crear un nuevo array con los números multiplicados por x
+    let numerosMultiplicados = numero.map(numero => numero * x);
+
+// Mostrar el nuevo array
+console.log('Array de números multiplicados por', x, ':', numerosMultiplicados);
+
+
+    //EJERCIIO 3
+      
+    let frutas = ['Manzana ', 'Plátano ', 'Cereza', 'Mango ', 'Cítricos ', 'Fresa ', 'Ciruela '];
+
+    // Ordenar el array alfabéticamente
+    console.log( "orden del array: "+frutas.sort()+ "\n");
+
+    let frutasConC = frutas.filter(fruta => fruta.startsWith('C'));
+
+    // Mostrar las frutas que comienzan con 'C'
+    console.log('Frutas que comienzan con C:', frutasConC);
+
+    // Agregar una nueva fruta 
+    frutas.push('mora');
+
+    // Filtrar el array para que solo muestre la nueva fruta
+    let nuevaFruta = frutas.filter(fruta => fruta === 'mora');
+
+    // Mostrar la nueva fruta agregada
+    console.log('Nueva fruta agregada:', frutas + '\n');
+     
 }
