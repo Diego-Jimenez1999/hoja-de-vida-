@@ -13,7 +13,7 @@ https://tuusuario.github.io/hoja-de-vida
 
 ## Vista previa
 
-![Demo](demo.gif)
+![Demo](/demo.gif)
 
 ## Tecnologías utilizadas
 
