@@ -7,6 +7,10 @@ Proyecto de hoja de vida desarrollado con HTML y CSS como parte de mi portafolio
 Ver proyecto online:
 https://tuusuario.github.io/hoja-de-vida
 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ## Vista previa
 
 ![Preview](assets/img/preview.png)
