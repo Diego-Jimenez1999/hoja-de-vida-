@@ -1,15 +1,11 @@
 # Hoja de Vida Web
 
-Proyecto de hoja de vida desarrollado con HTML y CSS como parte de mi portafolio de desarrollador.
-
-## Demo
-
-Ver proyecto online:
-https://tuusuario.github.io/hoja-de-vida
-
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Proyecto de hoja de vida desarrollado con HTML y CSS como parte de mi portafolio de desarrollador.
 
 ## Vista previa
 
