@@ -28,7 +28,7 @@ Proyecto de hoja de vida desarrollado con HTML y CSS como parte de mi portafolio
 
 Clonar el repositorio:
 
-git clone https://github.com/Diego-Jimenez1999/hoja-de-vida.git
+git clone [https://github.com/Diego-Jimenez1999/hoja-de-vida.git](https://Diego-Jimenez1999.github.io/hoja-de-vida)
 
 Abrir el archivo:
 
